@@ -1,16 +1,49 @@
-# pks_projects
+# Практическая работа №1 по Программированию корпоративных систем  
+## Дюльдин Иван Алексеевич ЭФБО-01-22  
+### Установка компонентов  
+1.  Установил Android Studio и Flutter SDK по инструкции на сайте Metanit  
 
-A new Flutter project.
+![Загрузки](/Pics/загрузки.jpeg)  
 
-## Getting Started
+2.  Добавил в переменную среды Path путь D:/flutter/bin  
+   
+![Загрузки](/Pics/переменныесреды.jpeg)  
 
-This project is a starting point for a Flutter application.
+3.  В терминале ввел команду flutter doctor, чтобы проверить установлены ли все компоненты корректно
 
-A few resources to get you started if this is your first Flutter project:
+![Загрузки](/Pics/доктор.jpeg)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Создание нового проекта
+1.  С помощью команды flutter create создал новый проект Flutter pr1
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Загрузки](/Pics/создание.png)  
+
+2.  Далее с помощью команд flutter devices и flutter emulators проверил, с помощью каких устройств можно запустить приложение
+
+![Загрузки](/Pics/flutterdevices.jpeg)
+
+![Загрузки](/Pics/flutteremulators.jpeg)  
+
+3.  Установил плагины Dart и Flutter в Android Studio, открыл в нем проект. В файле main.dart нашел кусок кода, который нужно изменить, вписал свою фамилию, инициалы, группу
+
+![Загрузки](/Pics/dartflutter.jpeg)  
+
+![Загрузки](/Pics/поменять.jpeg) 
+
+### Запуск приложения  
+1.  С помощью команды flutter run -d chrome запустил приложение в Google Chrome
+
+![Загрузки](/Pics/chrome.jpeg)  
+
+![Загрузки](/Pics/page.jpeg)  
+
+2.  С помощью команды flutter emulators -–launch запустил эмулятор, подключился к нему с помощью команды flutter run –d emulator-5554
+
+![Загрузки](/Pics/emulator.png)  
+
+![Загрузки](/Pics/phone.jpeg) 
+
+
+
+  
+
